@@ -1,5 +1,18 @@
-main {
+:root {
+  --blue: #628395;
+  --gray: #96897b;
+  --orange: #dbad6a;
+}
+
+body {
+  background: lightgrey;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
